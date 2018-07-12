@@ -1,20 +1,20 @@
-##Joseph Lombardi
-###COMP 271
-###Lab 6
-####Due 07/11/2018
+## Joseph Lombardi
+### COMP 271
+### Lab 6
+#### Due 07/11/2018
 
 
-###Questions
+### Questions
 
-#####Why does FixedArrayQueue require an explicit constructor?
+##### Why does FixedArrayQueue require an explicit constructor?
   FixedArrayQueue requires an explicit constructor because when we initiate an instance of that class we have to set our capacity.  
 
 
-#####What happens when you offer an item to a full FixedArrayQueue?
+##### What happens when you offer an item to a full FixedArrayQueue?
   When we call our offer method it checks to see if size is equal to capacity.  The the size is equal to capacity, offer returns false.  The result of offer is stored in a boolean result variable in our main method.  If the result variable is false, we print "queue full, " + name + " unable to join");" to the system output.
 
 
-#####What happens when you poll an empty FixedArrayQueue?
+##### What happens when you poll an empty FixedArrayQueue?
 
   poll() returns null if our queue is empty.  We store that in our String variable current.  If that value is null we continue to print "no one waiting" to our System output.
 
