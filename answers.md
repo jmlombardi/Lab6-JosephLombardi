@@ -18,7 +18,7 @@
 
   poll() returns null if our queue is empty.  We store that in our String variable current.  If that value is null we continue to print "no one waiting" to our System output.
 
-#####What is the time and (extra) space complexity of each of the FixedArrayQueue methods?
+##### What is the time and (extra) space complexity of each of the FixedArrayQueue methods?
   offer() - This method has a time complexity of O(1).    We are always setting data[rear] to the object we pass in to offer unless the size is equal to capacity.  This method has a space complexity of O(1).
 
   peek() - This method's time complexity is O(1).  We are always returning data[front] if the size is not equal to 0.  This method has a space complexity of O(1).
