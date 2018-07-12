@@ -29,5 +29,5 @@
 
   size() - this method's time complexity is O(1).  We are always returning size.  This method has a space complexity of O(1).
 
-  asList() - The time complexity is O(n) because the we have to copy each element to our ArrayList.  The bigger n is the more we have to copy.  This method's space complexity is O(n).  The bigger the list is the more memory we need to copy it.
+  asList() - The time complexity is O(n) because the we have to copy each element to our ArrayList.  The bigger n is the more we have to copy.  This method's space complexity is O(n).  The bigger the list is the more memory we need to copy it. 
   
